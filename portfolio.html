@@ -3,92 +3,129 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Portfolio | Irfan Ullah Ghazali</title>
+  <title>IRFAN GHAZALI— Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
-  <header class="site-header">
-    <div class="brand"><a href="index.html">Irfan<span>•</span></a></div>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="portfolio.html" class="active">Portfolio</a>
-      <a href="testimonials.html">Testimonials</a>
-      <a href="about.html">About</a>
+
+
+  <header class="header">
+    <div class="logo">IRFAN</div>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#testimonial">Testimonial</a>
+      <a href="#about">About</a>
     </nav>
-    <a class="cta" href="https://api.whatsapp.com/send/?phone=%2B923158120868&text&type=phone_number&app_absent=0">Contact</a>
+    <div class="right">
+      <div class="icon-box"><img src="https://cdn-icons-png.flaticon.com/512/1041/1041873.png" alt="Icon 1"></div>
+      <div class="icon-box"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Icon 2"></div>
+      <div class="icon-box"><img src="https://cdn-icons-png.flaticon.com/512/1828/1828859.png" alt="Icon 3"></div>
+    </div>
   </header>
 
-  <main>
-    <section class="page-hero small-hero">
-      <div class="container">
-        <h1>Portfolio</h1>
-        <p class="subtitle">Selected projects — built with HTML, CSS & Bootstrap principles. Clean, responsive & production-ready UI.</p>
+ 
+  <main id="home" class="hero">
+    <div class="big-circle"></div>
+
+    <div class="intro-section">
+      <div class="intro">I'm</div>
+      <h1 class="name"><span class="underline">IRFAN GHAZALI</span></h1>
+      <p class="desc">
+        A freelancer who provides services for digital programming and design content needs,
+        for all businesses with more than 10 years of experience.
+      </p>
+    </div>
+
+    <div class="profile-wrap">
+      <img class="profile" src="irfan.png" alt="IRFAN ULLAH" loading="lazy">
+    </div>
+
+    <aside class="services-card">
+      <h4>Services</h4>
+      <p>Let's build quality products in programming and design with my services</p>
+      <a class="show-more" href="#">show more →</a>
+
+      <div class="social-row">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
       </div>
-    </section>
-
-    <section class="projects container">
-      <div class="projects-grid">
-        <!-- Project 1 -->
-        <article class="project-card">
-          <div class="proj-media">
-            <img src="image5.png" alt="Business Landing">
-          </div>
-          <div class="proj-body">
-            <h3>Business Landing Page</h3>
-            <p>Responsive landing built with semantic HTML and modern CSS layout. Focus on conversion and clarity.</p>
-            <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
-          </div>
-        </article>
-
-        <!-- Project 2 -->
-        <article class="project-card">
-          <div class="proj-media">
-            <img src="image2.webp" alt="Portfolio UI">
-          </div>
-          <div class="proj-body">
-            <h3>Personal Portfolio</h3>
-            <p>Elegant one-page portfolio with smooth responsive behavior and accessible markup.</p>
-            <div class="tags"><span>HTML</span><span>CSS</span></div>
-          </div>
-        </article>
-
-        <!-- Project 3 -->
-        <article class="project-card">
-          <div class="proj-media">
-            <img src="image3.png" alt="E-commerce UI">
-          </div>
-          <div class="proj-body">
-            <h3>E-commerce UI</h3>
-            <p>Product grid, responsive filters, and card-first design optimized for touch devices.</p>
-            <div class="tags"><span>HTML</span><span>CSS</span></div>
-          </div>
-        </article>
-
-        <!-- Project 4 -->
-        <article class="project-card">
-          <div class="proj-media">
-            <img src="image4.webp" alt="Dashboard">
-          </div>
-          <div class="proj-body">
-            <h3>Admin Dashboard (UI)</h3>
-            <p>Clean dashboard mock-up concentrating on information density and legibility.</p>
-            <div class="tags"><span>CSS</span><span>UI</span></div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="more-work container">
-      <h2>Want to see more?</h2>
-      <p>Send me a message and I’ll share the live demos, code, and case-studies.</p>
-      <a href="mailto:ifran@example.com" class="btn btn-primary">Request Demos</a>
-    </section>
+    </aside>
   </main>
 
-  <footer class="site-footer">
-    <div class="container small">
-      <p>© 2025 Irfan Ullah Ghazali • Front-end Developer & Software Engineer</p>
+
+  <section class="brands">
+    <div class="brand">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Meta logo">
+      <div>Meta</div>
     </div>
-  </footer>
+    <div class="brand">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google logo">
+      <div>Google</div>
+    </div>
+    <div class="brand">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn logo">
+      <div>LinkedIn</div>
+    </div>
+    <div class="brand">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png" alt="Slack logo">
+      <div>Slack</div>
+    </div>
+  </section>
+
+
+  <section class="services-section">
+    <div class="services-left">
+      <h2>What Can I Do For<br>Your Needs</h2>
+      <p class="services-desc">
+        It is easier to entrust the work to the experts because they are able to provide 
+        the best results with reliable quality.
+      </p>
+
+      <div class="stats">
+        <div><h3>250+</h3><p>Project Completed</p></div>
+        <div><h3>100+</h3><p>Community Network</p></div>
+        <div><h3>30+</h3><p>Contract Remote</p></div>
+        <div><h3>10+</h3><p>Years Experience</p></div>
+      </div>
+    </div>
+
+    <div class="services-right">
+      <div class="service-item">
+        <img src="pexels-pixabay-221185.jpg" alt="UI/UX Design" loading="lazy">
+        <div class="info">
+          <h4>UI/UX Design</h4>
+          <p>117 Projects</p>
+        </div>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+
+      <div class="service-item">
+        <img src="pexels-harold-vasquez-853421-2653362.jpg" alt="Front End Development" loading="lazy">
+        <div class="info">
+          <h4>Front End Develop</h4>
+          <p>84 Projects</p>
+        </div>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+
+      <div class="service-item">
+        <img src="istockphoto-1439425791-2048x2048.jpg" alt="Mobile App Development" loading="lazy">
+        <div class="info">
+          <h4>Mobile App Develop</h4>
+          <p>32 Projects</p>
+        </div>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+    </div>
+  </section>
+
+  
+
+
 </body>
 </html>
